@@ -100,9 +100,10 @@
             </span>
         </div>
         {{- $currentPage := . }}
+        {{- $homeText := i18n "home" | default "Home" }}
         <ul id="menu">
             <li>
-                <a href="/" title="Home"><span>Home</span></a>
+                <a href="/" title="{{ $homeText }}"><span>{{ $homeText }}</span></a>
             </li>
             {{- range .Site.Menus.main }}
             {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}

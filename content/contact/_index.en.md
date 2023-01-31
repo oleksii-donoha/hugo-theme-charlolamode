@@ -3,13 +3,6 @@ Title: Contact
 type: list
 ---
 
+<i class="fa-brands fa-instagram"></i> [proidysvit.music](https://www.instagram.com/proidysvit.music/)
 
-#### LinkedIn
-If you have a short message or question, drop a message via [LinkedIn](https://www.linkedin.com/in/heycharlola/).
-
-
-<!-- #### Email
-For enquiries or longer messages, please email me. -->
-
-
-
+<i class="fa-brands fa-facebook"></i> [proidysvit](https://www.facebook.com/proidysvit)

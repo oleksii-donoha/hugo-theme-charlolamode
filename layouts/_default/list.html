@@ -38,6 +38,9 @@
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
+{{- if $page.Params.isHidden }}
+{{- continue }}
+{{- end }}
 
 {{- $class := "post-entry" }}
 
